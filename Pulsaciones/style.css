@@ -1,0 +1,39 @@
+ .navtop {
+     overflow: hidden;
+     background-color: rgb(4, 10, 63);
+ }
+ 
+ .navtop a {
+     float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+ }
+ 
+ .navtop a:hover {
+     background-color: rgb(122, 13, 13);
+     color: rgba(218, 204, 13, 0.795);
+ }
+ 
+ .navtop a.active {
+     background-color: #18e3f1;
+     color: rgb(8, 3, 3);
+ }
+ img{
+    width: 30%;
+    float: right;
+    box-shadow:-1px  -1px  black;
+    margin:4px;
+}
+.text{
+    float: left;
+}
+article{
+   display: flex;;
+   text-align: justify;
+}
+article div{
+    margin-right: 10px;
+}

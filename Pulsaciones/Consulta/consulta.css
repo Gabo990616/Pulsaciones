@@ -1,0 +1,61 @@
+.navtop {
+    overflow: hidden;
+    background-color: rgb(4, 10, 63);
+}
+
+.navtop a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navtop a:hover {
+    background-color: rgb(122, 13, 13);
+    color: rgba(218, 204, 13, 0.795);
+}
+
+.navtop a.active {
+    background-color: #18e3f1;
+    color: rgb(8, 3, 3);
+}
+table {
+    background-color: rgb(162, 229, 250);
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid rgb(1, 11, 66);
+    font-family: sans-serif;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+thead,
+tfoot {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 16px;
+    border: 2px solid rgb(7, 8, 5);
+}
+
+thead th{
+    width: 5%;
+}
+
+tbody {
+    font-size: 12px;
+    text-shadow: 1px 1px 1px rgb(206, 196, 196);
+    color: rgb(2, 0, 0);
+    height: 10em;
+}
+
+
+
+  tbody tr:nth-child(2n-1) {
+    background-color: #18e3f1;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #117de2;
+}

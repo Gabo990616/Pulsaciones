@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tus Pulsaciones</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+
+<body>
+    <div class="navtop">
+        <a href="../index.html">Inicio</a>
+        <a href="registro.html" class="active">Registro</a>
+        <a href="../Consulta/consulta.html">Consulta</a>
+    </div>
+    <form action="">
+        <div>
+            <label>Introduzca su nombre:</label>
+            <input type="text" name="" id="nombre">
+        </div>
+        <div>
+            <label>Seleccione su sexo:</label>
+            <select name="" id="sexo">
+                <option>Masculino</option>
+                <option>Femenino</option>
+            </select>
+        </div>
+        <div>
+            <label>Introduzca su edad:</label>
+            <input type="number" id="edad">
+        </div>
+        <div>
+            <button type="button" onclick="pulsacion()">Calcular pulsaciones por segundo recomendadas</button>
+        </div>
+    </form>
+</body>
+<script src="registro.js"></script>
+
+</html>

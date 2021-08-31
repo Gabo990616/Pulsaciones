@@ -1,0 +1,38 @@
+.navtop {
+    overflow: hidden;
+    background-color: rgb(4, 10, 63);
+}
+
+.navtop a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navtop a:hover {
+    background-color: rgb(122, 13, 13);
+    color: rgba(218, 204, 13, 0.795);
+}
+
+.navtop a.active {
+    background-color: #18e3f1;
+    color: rgb(8, 3, 3);
+}
+form{
+ margin-left: 35%;
+ margin-top: 60px;
+}
+form div{
+    padding: 4px;
+    background-color: rgb(10, 58, 161);
+    color: cornsilk;
+    width: 40%;
+    text-align: center;
+}
+button{
+    background-color: rgba(5, 68, 105, 0.616);
+    color: aliceblue;
+}
